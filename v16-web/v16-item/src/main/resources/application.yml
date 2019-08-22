@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: item-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+
+server:
+  port: 9093
+
+spring:
+  thymeleaf:
+    cache: false
+
+
+

@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 120.27.243.183
+    port: 5672
+    username: java1904
+    password: 123
+    virtual-host: /1904

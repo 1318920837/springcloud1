@@ -1,0 +1,21 @@
+dubbo:
+  application:
+    name: product-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+
+server:
+  port: 9091
+
+spring:
+  thymeleaf:
+    cache: false
+
+  redis:
+    host: 120.27.243.183
+    port: 6379
+    password: java1904
+    jedis:
+      pool:
+        max-active: 66

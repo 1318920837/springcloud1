@@ -1,0 +1,25 @@
+dubbo:
+  application:
+    name: product-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+  protocol:
+    port: 20882
+spring:
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/v16?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+  data:
+    solr:
+      host: http://120.27.243.183:8081/solr
+server:
+  port: 8081
+

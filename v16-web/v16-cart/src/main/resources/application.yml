@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: cart-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+
+server:
+  port: 9097
+
+spring:
+  thymeleaf:
+    cache: false
+

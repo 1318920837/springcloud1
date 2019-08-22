@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: search-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+
+server:
+  port: 9092
+
+spring:
+  thymeleaf:
+    cache: false
+
+  rabbitmq:
+    host: 120.27.243.183
+    port: 5672
+    username: java1904
+    password: 123
+    virtual-host: /1904

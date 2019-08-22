@@ -1,0 +1,28 @@
+dubbo:
+  application:
+    name: product-service
+  registry:
+    protocol: zookeeper
+    address: 120.27.243.183:2181
+
+server:
+  port: 9090
+
+spring:
+  thymeleaf:
+    cache: false
+
+  rabbitmq:
+    host: 120.27.243.183
+    port: 5672
+    username: java1904
+    password: 123
+    virtual-host: /1904
+
+
+  dubbo:
+    application:
+      name: product-service
+    registry:
+      protocol: zookeeper
+      address: 120.27.243.183:2181
